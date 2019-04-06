@@ -1,0 +1,63 @@
+{
+  "_from": "check_node_pm2",
+  "_id": "check_node_pm2@0.0.17",
+  "_inBundle": false,
+  "_integrity": "sha512-jLwdQdxVi7OP0lhMZV7Pxvinbpupq26NBpNw4MclLUbRLW7MaKxf/QpKc8lxVh81czWYF6pXdTzUECllUdm/Ag==",
+  "_location": "/check_node_pm2",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "check_node_pm2",
+    "name": "check_node_pm2",
+    "escapedName": "check_node_pm2",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/check_node_pm2/-/check_node_pm2-0.0.17.tgz",
+  "_shasum": "502b0dd60e5581ef4c4f8e3053cff46f4126beef",
+  "_spec": "check_node_pm2",
+  "_where": "/root",
+  "author": {
+    "name": "Amal Raj T",
+    "email": "amalrajt95@gmail.com"
+  },
+  "bin": {
+    "check_node_pm2": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/amalrajt/check_node_pm2/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "pm2": "*",
+    "yargs": "^4.7.1"
+  },
+  "deprecated": false,
+  "description": "Nagios plugin to monitor apllications in pm2",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "homepage": "https://github.com/amalrajt/check_node_pm2#readme",
+  "keywords": [
+    "icinga",
+    "nagios",
+    "pm2",
+    "node"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "check_node_pm2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amalrajt/check_node_pm2.git"
+  },
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "version": "0.0.17"
+}
